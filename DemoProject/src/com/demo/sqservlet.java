@@ -16,7 +16,7 @@ public class sqservlet extends HttpServlet{
 	{
 		int k=(int)req.getAttribute("k");
 		PrintWriter out=resp.getWriter();
-		out.println("Nakku"+k*k);
+		out.println(k*k);
 	}
 	
 }
