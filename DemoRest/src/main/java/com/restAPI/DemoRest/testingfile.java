@@ -2,6 +2,7 @@ package com.restAPI.DemoRest;
 class testingClass{
     public int returnMethodCount(int count){
         if(count==1){
+            System.out.println("Return method count")
             if(true){
                 System.out.println(count);
                 return 1;
